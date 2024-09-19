@@ -1,0 +1,17 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    background-color: blueviolet;
+}
+.navlink
+{
+    color: white;
+}
+.dropdown-menu
+{
+    background-color: antiquewhite;
+}
