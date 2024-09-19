@@ -5,13 +5,23 @@
 }
 .navbar
 {
-    background-color: blueviolet;
+    margin: 0;
+    background-color: #F7EFE5;
+    padding-bottom: 20px;
 }
-.navlink
+.container
 {
-    color: white;
+    color:#E2BFD9;
 }
 .dropdown-menu
 {
-    background-color: antiquewhite;
+    background-color: #C8A1E0;
+}
+.card
+{
+    margin-top: 40px;
+}
+.background
+{
+    color: #E2BFD9;
 }
