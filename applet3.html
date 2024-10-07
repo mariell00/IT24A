@@ -10,6 +10,24 @@
         crossorigin="anonymous"></script>
 
     <title>Document</title>
+    <style>
+        .btn-primary {
+        background-color: #C8A1E0; 
+        border-color: #C8A1E0;
+        }
+        .btn-secondary {
+        background-color: #C8A1E0; 
+        border-color: #C8A1E0;
+        }
+        .btn-pimary:hover {
+        background-color: #C8A1E0; 
+        border-color: #C8A1E0;
+        }
+        .btn-secondary:hover {
+        background-color: #C8A1E0; 
+        border-color: #C8A1E0;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -54,4 +72,16 @@
         </nav>
     </div>
 </body>
+<div class="applet3">
+    <h1>Event Button Logger </h1>
+    <h3 id="logCount">Total Logs: </h3>
+    <br>
+    <button class="btn btn-primary" id="logButton">Click Me</button>
+    <button class="btn btn-secondary"  id="clearButton">Clear</button>
+    <h2>Collected Data: </h2>
+    <div id="idContainer" style="width: 10rem;"></div>
+
+    
+</div>
+<script src="./applet3.js"></script>
 </html>
